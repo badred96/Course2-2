@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface MainTableViewController : UITableViewController
+
+@property(nonatomic) NSMutableArray * items;
+
+
+
 @end
 

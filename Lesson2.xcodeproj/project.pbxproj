@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		844AAF8A1BC484DB0025B920 /* IndicatorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 844AAF881BC484DB0025B920 /* IndicatorTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		844AAF8B1BC484DB0025B920 /* IndicatorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844AAF891BC484DB0025B920 /* IndicatorTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
 		AA02F7A91BBD183300D2D2EB /* MyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA02F7A81BBD183300D2D2EB /* MyCollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
 		AACFCD331BB6063900483585 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFCD321BB6063900483585 /* main.m */; };
 		AACFCD361BB6063900483585 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFCD351BB6063900483585 /* AppDelegate.m */; };
@@ -18,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		844AAF871BC484DB0025B920 /* IndicatorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicatorTableViewCell.h; sourceTree = "<group>"; };
+		844AAF881BC484DB0025B920 /* IndicatorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicatorTableViewCell.m; sourceTree = "<group>"; };
+		844AAF891BC484DB0025B920 /* IndicatorTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IndicatorTableViewCell.xib; sourceTree = "<group>"; };
 		AA02F7A71BBD183300D2D2EB /* MyCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewController.h; sourceTree = "<group>"; };
 		AA02F7A81BBD183300D2D2EB /* MyCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewController.m; sourceTree = "<group>"; };
 		AACFCD2E1BB6063900483585 /* Lesson2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +69,9 @@
 		AACFCD301BB6063900483585 /* Lesson2 */ = {
 			isa = PBXGroup;
 			children = (
+				844AAF871BC484DB0025B920 /* IndicatorTableViewCell.h */,
+				844AAF881BC484DB0025B920 /* IndicatorTableViewCell.m */,
+				844AAF891BC484DB0025B920 /* IndicatorTableViewCell.xib */,
 				AACFCD3A1BB6063900483585 /* Main.storyboard */,
 				AACFCD481BB6069100483585 /* LoadingTableViewController.h */,
 				AACFCD491BB6069100483585 /* LoadingTableViewController.m */,
@@ -149,6 +157,7 @@
 				AACFCD411BB6063900483585 /* LaunchScreen.storyboard in Resources */,
 				AACFCD3E1BB6063900483585 /* Assets.xcassets in Resources */,
 				AACFCD3C1BB6063900483585 /* Main.storyboard in Resources */,
+				844AAF8B1BC484DB0025B920 /* IndicatorTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +171,7 @@
 				AACFCD4A1BB6069100483585 /* LoadingTableViewController.m in Sources */,
 				AA02F7A91BBD183300D2D2EB /* MyCollectionViewController.m in Sources */,
 				AACFCD391BB6063900483585 /* MainTableViewController.m in Sources */,
+				844AAF8A1BC484DB0025B920 /* IndicatorTableViewCell.m in Sources */,
 				AACFCD361BB6063900483585 /* AppDelegate.m in Sources */,
 				AACFCD331BB6063900483585 /* main.m in Sources */,
 			);
