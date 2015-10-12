@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		844AAF8A1BC484DB0025B920 /* IndicatorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 844AAF881BC484DB0025B920 /* IndicatorTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		844AAF8B1BC484DB0025B920 /* IndicatorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844AAF891BC484DB0025B920 /* IndicatorTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		84DFBDA51BCB1423007B55DC /* FirstPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DFBDA41BCB1423007B55DC /* FirstPageViewController.m */; settings = {ASSET_TAGS = (); }; };
+		84DFBDA81BCB1847007B55DC /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DFBDA71BCB1847007B55DC /* TabBarViewController.m */; settings = {ASSET_TAGS = (); }; };
+		84DFBDAB1BCB2E3E007B55DC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DFBDAA1BCB2E3E007B55DC /* FirstViewController.m */; settings = {ASSET_TAGS = (); }; };
+		84DFBDAE1BCB2E4E007B55DC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DFBDAD1BCB2E4E007B55DC /* SecondViewController.m */; settings = {ASSET_TAGS = (); }; };
+		84DFBDB11BCB2E63007B55DC /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DFBDB01BCB2E63007B55DC /* ThirdViewController.m */; settings = {ASSET_TAGS = (); }; };
+		84DFBDB81BCB30EE007B55DC /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DFBDB61BCB30EE007B55DC /* MyCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		84DFBDB91BCB30EE007B55DC /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DFBDB71BCB30EE007B55DC /* MyCollectionViewCell.xib */; settings = {ASSET_TAGS = (); }; };
 		AA02F7A91BBD183300D2D2EB /* MyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA02F7A81BBD183300D2D2EB /* MyCollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
 		AACFCD331BB6063900483585 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFCD321BB6063900483585 /* main.m */; };
 		AACFCD361BB6063900483585 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFCD351BB6063900483585 /* AppDelegate.m */; };
@@ -23,6 +30,19 @@
 		844AAF871BC484DB0025B920 /* IndicatorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicatorTableViewCell.h; sourceTree = "<group>"; };
 		844AAF881BC484DB0025B920 /* IndicatorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicatorTableViewCell.m; sourceTree = "<group>"; };
 		844AAF891BC484DB0025B920 /* IndicatorTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IndicatorTableViewCell.xib; sourceTree = "<group>"; };
+		84DFBDA31BCB1423007B55DC /* FirstPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstPageViewController.h; sourceTree = "<group>"; };
+		84DFBDA41BCB1423007B55DC /* FirstPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstPageViewController.m; sourceTree = "<group>"; };
+		84DFBDA61BCB1847007B55DC /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		84DFBDA71BCB1847007B55DC /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		84DFBDA91BCB2E3E007B55DC /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		84DFBDAA1BCB2E3E007B55DC /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		84DFBDAC1BCB2E4E007B55DC /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		84DFBDAD1BCB2E4E007B55DC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		84DFBDAF1BCB2E63007B55DC /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		84DFBDB01BCB2E63007B55DC /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		84DFBDB51BCB30EE007B55DC /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		84DFBDB61BCB30EE007B55DC /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		84DFBDB71BCB30EE007B55DC /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
 		AA02F7A71BBD183300D2D2EB /* MyCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewController.h; sourceTree = "<group>"; };
 		AA02F7A81BBD183300D2D2EB /* MyCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewController.m; sourceTree = "<group>"; };
 		AACFCD2E1BB6063900483585 /* Lesson2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +100,10 @@
 				AA02F7A71BBD183300D2D2EB /* MyCollectionViewController.h */,
 				AA02F7A81BBD183300D2D2EB /* MyCollectionViewController.m */,
 				AACFCD311BB6063900483585 /* Supporting Files */,
+				84DFBDA31BCB1423007B55DC /* FirstPageViewController.h */,
+				84DFBDA41BCB1423007B55DC /* FirstPageViewController.m */,
+				84DFBDA61BCB1847007B55DC /* TabBarViewController.h */,
+				84DFBDA71BCB1847007B55DC /* TabBarViewController.m */,
 			);
 			path = Lesson2;
 			sourceTree = "<group>";
@@ -87,6 +111,15 @@
 		AACFCD311BB6063900483585 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84DFBDB51BCB30EE007B55DC /* MyCollectionViewCell.h */,
+				84DFBDB61BCB30EE007B55DC /* MyCollectionViewCell.m */,
+				84DFBDB71BCB30EE007B55DC /* MyCollectionViewCell.xib */,
+				84DFBDA91BCB2E3E007B55DC /* FirstViewController.h */,
+				84DFBDAA1BCB2E3E007B55DC /* FirstViewController.m */,
+				84DFBDAC1BCB2E4E007B55DC /* SecondViewController.h */,
+				84DFBDAD1BCB2E4E007B55DC /* SecondViewController.m */,
+				84DFBDAF1BCB2E63007B55DC /* ThirdViewController.h */,
+				84DFBDB01BCB2E63007B55DC /* ThirdViewController.m */,
 				AACFCD3D1BB6063900483585 /* Assets.xcassets */,
 				AACFCD3F1BB6063900483585 /* LaunchScreen.storyboard */,
 				AACFCD421BB6063900483585 /* Info.plist */,
@@ -154,6 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DFBDB91BCB30EE007B55DC /* MyCollectionViewCell.xib in Resources */,
 				AACFCD411BB6063900483585 /* LaunchScreen.storyboard in Resources */,
 				AACFCD3E1BB6063900483585 /* Assets.xcassets in Resources */,
 				AACFCD3C1BB6063900483585 /* Main.storyboard in Resources */,
@@ -168,9 +202,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DFBDAE1BCB2E4E007B55DC /* SecondViewController.m in Sources */,
+				84DFBDA51BCB1423007B55DC /* FirstPageViewController.m in Sources */,
+				84DFBDB81BCB30EE007B55DC /* MyCollectionViewCell.m in Sources */,
+				84DFBDAB1BCB2E3E007B55DC /* FirstViewController.m in Sources */,
 				AACFCD4A1BB6069100483585 /* LoadingTableViewController.m in Sources */,
 				AA02F7A91BBD183300D2D2EB /* MyCollectionViewController.m in Sources */,
+				84DFBDB11BCB2E63007B55DC /* ThirdViewController.m in Sources */,
 				AACFCD391BB6063900483585 /* MainTableViewController.m in Sources */,
+				84DFBDA81BCB1847007B55DC /* TabBarViewController.m in Sources */,
 				844AAF8A1BC484DB0025B920 /* IndicatorTableViewCell.m in Sources */,
 				AACFCD361BB6063900483585 /* AppDelegate.m in Sources */,
 				AACFCD331BB6063900483585 /* main.m in Sources */,

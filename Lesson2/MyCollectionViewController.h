@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface MyCollectionViewController : UICollectionViewController
-
+@property (nonatomic) NSMutableArray *items;
+@property BOOL Loading;
+@property BOOL Failed;
 @end
